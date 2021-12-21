@@ -1,0 +1,107 @@
+.hiddenLogin {
+    position:fixed;
+    display:block;
+    width:30px;
+    height:30px;
+    bottom:0px;
+    left:0px;
+    text-indent: -1000px;
+    overflow:hidden;
+}
+
+.dnnLogin {
+    display:flex;
+    justify-content:center;
+    width:100%;
+    margin-top:3rem;
+    margin-bottom:3rem;
+    a, a:hover, a:focus {
+        border-color:transparent;
+        background:transparent;
+        box-shadow:none;
+        color:inherit;
+        text-shadow:none;
+        all:unset;
+    }
+    .LoginPanel {
+        width:100%;
+        padding:0;
+    }
+    .dnnFormItem {
+        display:flex;
+        flex-wrap:wrap;
+        margin-bottom:1rem;
+        .dnnLabel {
+            width:100%;
+            padding:0;
+            margin:0;
+            text-align:left;
+            font-weight:600;
+        }
+        > .dnnFormLabel {
+            display:none;
+        }
+        input {
+            width:100%;
+            border-radius:2px;
+            border-color:#333;
+            margin-bottom:0;
+        }
+        .dnnPrimaryAction {
+            @extend .btn;
+            @extend .btn-main-shade;
+            flex:1 1 0;
+            border-radius:2px;
+            + a {
+                margin-left:.5rem;
+                @extend .btn-main-shade;
+            }
+        }
+        .dnnSecondaryAction {
+            @extend .btn;
+            @extend .btn-main-accent;
+            flex:1 1 0;
+            border-radius:2px;
+        }
+        .dnnLoginActions .dnnActions {
+            padding-left:0;
+            padding-top:0;
+        }
+        .dnnLoginRememberMe {
+            display:flex;
+            align-items:center;
+            .dnnCheckbox {
+                display:flex;
+                margin:0;
+                margin-right:.5rem;
+                .mark {
+                    position:relative;
+                    height:17px;
+                    width:17px;
+                    border:1px solid #333;
+                    border-radius:2px;
+                    padding:0;
+                    background:transparent;
+                    img {
+                        display:none;
+                    }
+                }
+                &.dnnCheckbox-checked .mark:after {
+                    content:'';
+                    position:absolute;
+                    width:7px;
+                    height:12px;
+                    border:none;
+                    border-bottom:2px solid #333;
+                    border-right:2px solid #333;
+                    transform: rotate(45deg);
+                    left:3.5px;
+                }
+            }
+            label {
+                font-weight:600;
+                margin-bottom:0;
+            }
+        }
+    }
+}

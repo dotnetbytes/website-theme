@@ -1,0 +1,9 @@
+// Stop module highlighting
+.sc-cb-highlight-for-insert {
+    background-color:inherit;
+}
+
+// Get rid of quick insert
+.sc-content-block-quick-insert {
+    display:none !important;
+}
