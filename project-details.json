@@ -1,9 +1,9 @@
 {
-	"project": "nvQuickTheme",
-	"version": "2.3.0",
+	"project": "dotnetbytes-theme",
+	"version": "1.0.0",
 	"author": "TK Sheppard &amp; David Poindexter",
 	"company": "nvisionative",
-	"url": "www.nvquicktheme.com",
+	"url": "www.nvisionative.com",
     "email": "support@nvisionative.com",
-    "description": "A DNN Theme Dev Framework"
+    "description": "A DNN Theme for .netbytes"
 }

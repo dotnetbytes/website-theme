@@ -9,38 +9,51 @@
 // Base Styles
 //–––––––––––––––––––––––––––––––––––––––––––––––––
 
+html {
+  @include font-size(16);
+}
+
 body {
-  font-size: 16px;
-  font-weight: 200;
+  @include font-size(18);
+  font-weight: 300;
   line-height: 1.5;
-  font-family: $open-sans;
+  font-family: $roboto;
   color: color('dark-shade');
   background-color: #fff;
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5 {
-	font-family: $open-sans;
+h1, h2 {
+	font-family: $merriweather;
+}
+
+h3, h4, h5 {
+  font-family: $roboto;
 }
 
 h1 {
-  @include font-baseline(48, 52);
+  @include font-size(56);
+  font-weight:900;
 }
 
 h2 {
-  @include font-baseline(38, 48);
+  @include font-size(40px);
+  font-weight:400;
 }
 
 h3 {
-  @include font-baseline(26, 36);
+  @include font-size(24px);
+  font-weight:500;
 }
 
 h4 {
-  @include font-baseline(22, 28);
+  @include font-size(20px);
+  font-weight:500
 }
 
 h5 {
-  @include font-baseline(18, 24);
+  @include font-size(18px);
+  font-weight:500
 }
 
 p {

@@ -1,20 +1,12 @@
-<header class="sticky-top">
-  <div class="bg-main-accent py-1">
-    <div class="container">
-      <div class="row justify-content-end">
-        <ul class="list-unstyled user-controls">
-          <li><dnn:Login runat="server" id="dnnLogin" /></li>
-          <li><dnn:User runat="server" id="dnnUser" /></li>
-          <li><dnn:Search runat="server" id="dnnSearch" ShowSite="false" ShowWeb="false" Submit="<i class='fas fa-search'></i>" /></li>
-          <li style="display:none;"><dnn:Language runat="server" id="dnnLanguage" ShowMenu="false" ShowLinks="false" /></li>
-        </ul>
+<header class="sticky-top bg-white">
+  <div class="container">
+    <div class="row navbar-header">
+      <div class="col-auto d-flex align-items-center">
+        <% if ( PortalSettings.ActiveTab.TabName != "Home" ) { %>
+          <dnn:LOGO id="dnnLOGO" runat="server" />
+        <% } %>
       </div>
-    </div>
-  </div>
-  <div class="bg-light-shade">
-    <div class="container">
-      <div class="row navbar-header">
-        <dnn:LOGO id="dnnLOGO" runat="server" />
+      <div class="col-auto ml-auto position-unset">
         <nav>
           <dnn:MENU id="menu" MenuStyle="menus/razor" runat="server" NodeSelector="*"></dnn:MENU>
         </nav>
