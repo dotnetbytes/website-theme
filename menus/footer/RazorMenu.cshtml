@@ -2,7 +2,7 @@
 @using System.Dynamic;
 @inherits DotNetNuke.Web.Razor.DotNetNukeWebPage<dynamic>
     
-<ul class="d-flex justify-content-around" id="footer-navigation">
+<ul class="d-flex flex-column flex-md-row justify-content-around" id="footer-navigation">
     @RenderPages(Model.Source.root.Children)
 </ul>
 
