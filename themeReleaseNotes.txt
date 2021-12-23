@@ -1,5 +1,5 @@
-<h2>________ Theme</h2>
-<div><em>A custom DNN theme designed and developed for the ________.</em></div>
+<h2>.Net Bytes Theme</h2>
+<div><em>A custom DNN theme designed and developed for .Net Bytes.</em></div>
 <div>&nbsp;</div>
 <h3>Release History</h3>
 <hr />

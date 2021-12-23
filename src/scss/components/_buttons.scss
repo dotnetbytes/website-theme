@@ -2,6 +2,13 @@
 @each $color, $value in $colors {
   .btn-#{$color} {
     @include button-variant($color,.8);
+    @include font-size(16);
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    font-weight:500;
+    padding:1rem 2.5rem;
+    line-height:1;
+    border-radius:0;
   }
   .btn-outline-#{$color} {
     @include button-outline-variant($color);
@@ -11,5 +18,13 @@
   }
   .btn-inverse-#{$color} {
     @include button-inverse-variant($color,.9);
+  }
+}
+
+.btn-sub-shade {
+  color:color('main-shade');
+  &:hover, &:focus {
+    color:color('main-shade');
+    background:darken(map-get($colors, 'sub-shade'), 8%);
   }
 }

@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Roboto';
-    src: url('Roboto-Medium.woff2') format('woff2'),
-        url('Roboto-Medium.woff') format('woff');
+    src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+        url('../fonts/Roboto-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: fallback;
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('Roboto-Regular.woff2') format('woff2'),
-        url('Roboto-Regular.woff') format('woff');
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: fallback;
@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('Roboto-Light.woff2') format('woff2'),
-        url('Roboto-Light.woff') format('woff');
+    src: url('../fonts/Roboto-Light.woff2') format('woff2'),
+        url('../fonts/Roboto-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: fallback;
@@ -27,8 +27,8 @@
 
 @font-face {
     font-family: 'Merriweather';
-    src: url('Merriweather-Regular.woff2') format('woff2'),
-        url('Merriweather-Regular.woff') format('woff');
+    src: url('../fonts/Merriweather-Regular.woff2') format('woff2'),
+        url('../fonts/Merriweather-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: fallback;
@@ -36,8 +36,8 @@
 
 @font-face {
     font-family: 'Merriweather';
-    src: url('Merriweather-Black.woff2') format('woff2'),
-        url('Merriweather-Black.woff') format('woff');
+    src: url('../fonts/Merriweather-Black.woff2') format('woff2'),
+        url('../fonts/Merriweather-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: fallback;

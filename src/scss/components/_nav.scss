@@ -39,6 +39,13 @@ header {
 nav a {
   font-weight:400;
   @include font-size(16);
+  text-transform: uppercase;
+  color: color('dark-shade');
+  letter-spacing:0.1em;
+  &:hover, &:focus {
+    color:color('black');
+    text-decoration: none;
+  }
 }
 
 nav ul {
@@ -88,16 +95,10 @@ nav ul {
           }
         }
         > a {
-          text-transform: uppercase;
           display: flex;
           padding: 2.25rem 1.25rem;
           align-items: center;
-          color: color('dark-shade');
           position:relative;
-          &:hover, &:focus {
-            color:color('black');
-            text-decoration: none;
-          }
         }
       }
 
