@@ -6,7 +6,7 @@
     letter-spacing:0.1em;
     text-transform:uppercase;
     font-weight:500;
-    padding:1rem 2.5rem;
+    padding:1rem 2.5rem 0.9rem;
     line-height:1;
     border-radius:0;
   }
@@ -24,7 +24,8 @@
 .btn-sub-shade {
   color:color('main-shade');
   &:hover, &:focus {
-    color:color('main-shade');
-    background:darken(map-get($colors, 'sub-shade'), 8%);
+    color:color('sub-shade');
+    background:color('main-shade');
+    border-color:color('main-shade');
   }
 }
