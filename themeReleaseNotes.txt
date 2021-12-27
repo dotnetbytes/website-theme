@@ -5,6 +5,20 @@
 <hr />
 <div>&nbsp;</div>
 <div>
+	<h4>Version 1.0.1</h4>
+	<ul>
+		<li style="margin-left:20px;">Updated yellow button hover/focus</li>
+		<li style="margin-left:20px;">Remove buttons box-shadow on hover/focus</li>
+		<li style="margin-left:20px;">Links styles updated/li>
+		<li style="margin-left:20px;">Added Heading classes</li>
+		<li style="margin-left:20px;">Fixed Heading font size mixin values with double unit</li>
+		<li style="margin-left:20px;">Font Variables updated</li>
+		<li style="margin-left:20px;">Added font weight style helpers</li>		
+	</ul>
+</div>
+<hr />
+<div>&nbsp;</div>
+<div>
 	<h4>Version 1.0.0</h4>
 	<ul>
 		<li style="margin-left:20px;">Initial Release</li>

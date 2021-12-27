@@ -39,6 +39,7 @@
   color: white;
   background-color: $var-color;
   border-color: $var-color;
+  text-decoration: none;
   &:hover, &:focus {
     color: white;
     background-color: rgba($var-rgb-color, $hover-alpha);
@@ -52,6 +53,7 @@
   color: $var-color;
   background-color: transparent;
   border-color: $var-color;
+  text-decoration: none;
   &:hover, &:focus {
     color: white;
     background-color: $var-color;
@@ -66,6 +68,7 @@
   background-color: $var-color;
   background-image: none;
   border-color: $var-color;
+  text-decoration: none;
   &:hover, &:focus {
     color: $var-color;
     background-color: transparent;
@@ -80,6 +83,7 @@
   background-color: color('white');
   background-image: none;
   border-color: color('white');
+  text-decoration: none;
   &:hover, &:focus {
     color: $color;
     background-color: rgba(color('white', true), $hover-alpha);
