@@ -1,6 +1,6 @@
 <dotnetnuke type="Package" version="9.0">
   <packages>
-    <package name="nvisionative.dotnetbytes-theme" type="Skin" version="1.0.0">
+    <package name="nvisionative.dotnetbytes-theme" type="Skin" version="1.0.1">
       <friendlyName>dotnetbytes-theme</friendlyName>
       <description>A DNN Theme for .netbytes</description>
       <iconFile>MyIcon.png</iconFile>
