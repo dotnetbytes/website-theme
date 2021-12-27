@@ -9,11 +9,11 @@
 	<ul>
 		<li style="margin-left:20px;">Updated yellow button hover/focus</li>
 		<li style="margin-left:20px;">Remove buttons box-shadow on hover/focus</li>
-		<li style="margin-left:20px;">Links styles updated/li>
+		<li style="margin-left:20px;">Links styles updated</li>
 		<li style="margin-left:20px;">Added Heading classes</li>
 		<li style="margin-left:20px;">Fixed Heading font size mixin values with double unit</li>
 		<li style="margin-left:20px;">Font Variables updated</li>
-		<li style="margin-left:20px;">Added font weight style helpers</li>		
+		<li style="margin-left:20px;">Added font-weight style helpers</li>		
 	</ul>
 </div>
 <hr />
