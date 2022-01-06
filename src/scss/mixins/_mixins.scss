@@ -90,3 +90,27 @@
     border-color: rgba(color('white', true), $hover-alpha);
   }
 }
+
+// Input Placeholder
+@mixin placeholder($color: color('light-grey'),$opacity:1) {
+  &::-webkit-input-placeholder {
+    color: $color;
+    opacity: $opacity;
+  }
+  &::-moz-placeholder {
+    color: $color;
+    opacity: $opacity;
+  }
+  &:-ms-input-placeholder {
+    color: $color;
+    opacity: $opacity;
+  }
+  &::-webkit-input-placeholder {
+    color: $color;
+    opacity: $opacity;
+  }
+  &::placeholder {
+    color: $color;
+    opacity: $opacity;
+  }
+}
