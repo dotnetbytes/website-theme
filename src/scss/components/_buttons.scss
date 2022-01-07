@@ -21,6 +21,14 @@
   }
 }
 
+.btn-main-shade {
+  color:color('sub-shade');
+  &:hover, &:focus {
+    color:color('main-shade');
+    background:color('sub-shade');
+    border-color:color('sub-shade');
+  }
+}
 .btn-sub-shade {
   color:color('main-shade');
   &:hover, &:focus {
