@@ -123,4 +123,10 @@ body .LiveForm.Default {
             }
         }
     }
+    label.error {
+        color: color('sub-shade');
+        font-size: 0.875rem;
+        font-weight: 300;
+        padding: 0.5rem 0;
+    }
 }
