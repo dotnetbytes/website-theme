@@ -2,7 +2,7 @@ body .LiveForm.Default {
     @extend .container;
     font-family: $roboto;
     font-size: 1rem;
-    margin-bottom: 0;
+    margin: 4rem 0;
     td, 
     th, 
     table {
@@ -37,7 +37,8 @@ body .LiveForm.Default {
                 background-position: 50% 50%;
                 border-width: 3rem 4rem 2rem;
             }
-            background-image: url('../images/Contact_Us.png');
+            background-image: url('/Portals/_default/Skins/dotnetbytes-theme/images/Contact_Us.png');
+
         }
     }
     ul.page-break-section,
