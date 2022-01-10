@@ -2,7 +2,8 @@ body .LiveForm.Default {
     @extend .container;
     font-family: $roboto;
     font-size: 1rem;
-    margin: 4rem 0;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     td, 
     th, 
     table {
