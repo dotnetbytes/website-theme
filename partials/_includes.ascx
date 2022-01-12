@@ -17,11 +17,11 @@
             "dist/webfonts/fa-brands-400",
             "dist/webfonts/fa-regular-400",
             "dist/webfonts/fa-solid-900",
-            "dist/fonts/OpenSans-Bold",
-            "dist/fonts/OpenSans-ExtraBold",
-            "dist/fonts/OpenSans-Light",
-            "dist/fonts/OpenSans-Regular",
-            "dist/fonts/OpenSans-SemiBold"
+            "dist/fonts/Merriweather-Black",
+            "dist/fonts/Merriweather-Regular",
+            "dist/fonts/Roboto-Light",
+            "dist/fonts/Roboto-Regular",
+            "dist/fonts/Roboto-Medium"
         };
 
         var types = new Dictionary<string, string>();

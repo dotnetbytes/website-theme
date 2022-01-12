@@ -17,7 +17,7 @@
 
   <div id="FluidPaneA" runat="server"></div>
 
-  <div id="FluidPaneB" class="bg-light-accent" runat="server"></div>
+  <div id="FluidPaneB" runat="server"></div>
   
 </main>
 

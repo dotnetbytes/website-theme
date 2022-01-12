@@ -7,7 +7,7 @@
         </nav>
       </div>
       <div class="w-100"></div>
-      <div class="col-auto">
+      <div class="col-auto my-1">
         <dnn:COPYRIGHT id="dnnCopyright" runat="server" />
       </div>
     </div>
